@@ -1,0 +1,12 @@
+h1{
+    font-size: smaller;
+    text-align: center;
+}
+/* selector means the element or the tag we are selecting to style in the css file */
+/* types of selectors:
+1. element selector
+2. id selector (use # to select id and then style the element)
+3. class selector (use . to select class and then style the element)
+4. attribute selector
+5. group selector
+*/

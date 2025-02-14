@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First try</title>
+    <!-- we can insert favicon(the logo on the tab title) using the link tag. Always remember that the image should be under the
+     root directory of our html file.-->
+    <link rel="icon" href="divoimg.jpg" type="image/x-icon">
+
+    <!-- to link ur css file into ur html file, we can use the link tag.-->
+    <link rel="stylesheet" href="style.css">
+    <!-- to link ur js file into ur html file, we can use the script tag.-->
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 style="background-color: aqua;">This is my First heading</h1>
+    <h2 style="color: brown; background-color: beige;">This is my Second heading</h2>
+    <h3>This is my Third heading</h3>
+
+    <!-- Anchor tag -->
+    <a href="https://www.google.com">Click here to go to google </a>
+
+    <!-- to create list using shortcut, type ul>li*3 or ol>li*3. this will create an unordered or an ordered list in less time. -->
+    <ul>
+        <li>Lamborghini</li>
+        <li>Porsche</li>
+        <li>Ferrari</li>
+    </ul>
+    <ol>Steps to make Coffee:
+        <li>Put Instant coffee in a mug</li>
+        <li>Heat milk</li>
+        <li>Put milk in the mug</li>
+        <li>Stir Coffee and enjoy</li>
+    </ol>
+    <div class="wrapper"><header><h4>this is my fourth heading</h4></header>
+        <main></main>
+        <footer></footer>
+    </div>
+    <!-- table creation(use <table> tag). for rows, us tr tag and for columns or data(categories), use td tag -->
+    <table border="1">
+        <tr>
+            <td style="color:black; background-color:aqua ;">Sr.no</td>
+            <td style="color:black; background-color:aqua;">Name</td>
+            <td style="color:black; background-color:aqua;">Login</td>
+
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+    </table>
+    <!-- using shortcut(emmet) type table>(tr>td*3)*3. this will create a table with 3 columns and 3 rows. -->
+    <!-- the div tag is used to make blocks of code/ or divide ur code into different blocks or divisions.
+     (for wrapping) -->
+
+    <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Lamborghini/Revuelto/9770/1680237730530/front-left-side-47.jpg?tr=w-664" 
+     alt="This Car is on my list of dream cars."
+     style="float: right; margin-left: 20px; width: 40%; height: auto;">
+
+    
+    <!-- we usually dont use these formatting tags in html, we do formatting by css. try to not use these tags. for a random para with some wods, write lorem50 (50 is the number of words in the paragraph) -->
+    <!-- to add meaning to a para or focus on a specific word, we can use the tag strong or the em tag to show emphasis on that word -->
+    <p>Lorem, <b><i>ipsum</i></b> dolor sit amet consectetur adipisicing elit. Aperiam eligendi error dolore quia aliquam dolorum, tempora eius facilis a culpa praesentium dolorem. Nulla hic exercitationem quaerat fuga perferendis ab. Vitae eaque molestias asperiores odit dolor ad aspernatur eos! Dolorum quidem accusantium, amet temporibus maxime reprehenderit incidunt beatae est velit? Nostrum qui voluptatibus amet blanditiis quae temporibus, modi architecto dolor nihil vitae similique dolorem pariatur ut ab cupiditate hic porro deleniti ipsa in facere ad cumque alias sunt? Autem, est obcaecati? Dolorum quis atque nisi, facere est sapiente rerum nulla omnis impedit et velit debitis dolores ducimus natus aliquid repellendus doloremque.</p> 
+    <p>
+        2 <sup>5</sup>
+        O <sub>2</sub>
+    </p>
+    <!-- u can use the <br/> tag for a new line -->
+    <!-- if u want ur text to appear same in ur webpage, u can use the <pre> tag -->
+    <!-- <u>- for underlining,
+        <s>- for striking through any text -->
+    
+    <pre>
+    My name is Siddhesh
+    I live in Mumbai
+    </pre>
+    <!--Emmet abbreviations:
+    >(shortcut for writing any tag or tag structure),{}(shortcut for any tag, for ex: p{}),+(for making multiple tags at the same time),*(for multiple)-->
+</body>
+<table border="1">
+    <th>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+    </th>
+    <tbody>
+        <tr>
+            <td rowspan="2">D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+        </tr>
+        <tr>
+            <td colspan="3">I</td>
+        </tr>
+    </tbody>
+</table>
+<!--FORMS IN HTML(TAKES USER INPUT) 
+tags: <form> to create html form 
+    <input> - to take input from user
+    <label>- to create a label(for ex: Login ID)always has a for attribute(REMEMBER THAT ID OF INPUT TAG IS SAME AS FOR ATTRIBUTE OF LABEL TAG)
+        
+        -->
+
+</html>

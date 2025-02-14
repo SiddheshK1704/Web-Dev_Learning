@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--FORMS IN HTML(TAKES USER INPUT) 
+tags: <form> to create html form 
+    <input> - to take input from user(ALWAYS MAKE A LABEL FOR INPUT TAG, AND ALWAYS SPECIFY THE ID FOR THE INPUT TAG)
+    <label>- to create a label(for ex: Login ID)always has a for attribute(REMEMBER THAT ID OF INPUT TAG IS SAME AS FOR ATTRIBUTE OF LABEL TAG)-->
+        <form action="">
+            <label for="E-mail">Enter E-mail ID:</label>
+            <input type="text" id="E-mail">
+            <br/>
+            <br/><!-- the <br/> tag is used to break into a new line-->
+            <label for="Password">Enter Password</label>
+            <input type="password" id="Password">
+            <br/>
+            <br/>
+            <!--INPUT TYPES:
+                    <input type="button">
+                    <input type="checkbox">
+                    <input type="color">
+                    <input type="date">
+                    <input type="datetime-local">
+                    <input type="email">
+                    <input type="file">
+                    <input type="hidden">
+                    <input type="image">
+                    <input type="month">
+                    <input type="number">
+                    <input type="password">
+                    <input type="radio">
+                    <input type="range">
+                    <input type="reset">
+                    <input type="search">
+                    <input type="submit">
+                    <input type="tel">
+                    <input type="text">
+                    <input type="time">
+                    <input type="url">
+                    <input type="week">-->
+            <input type="submit" value="Submit">
+            <!--instead of creating the submit as an input, we can create a submit button using the <button> tag as well-->
+            <button type="submit">Submit</button>
+            <!--we can use the value attribute of the input tag to already set some input in the text field or the click input we want to create.
+            TO CREATE THE GREY TEXT TO PROVIDE THE USER WITH HINTS ON WHAT TO ENTER IN THE TEXT FIELD, USE THE PLACEHOLDER ATTRIBUTE OF THE INPUT TAG-->
+            <input type="reset" value="Refresh">Reset</input>
+            <!--radio buttons are taken in input tag-->
+            <input type="radio" id="Gender1">Male</input>
+            <input type="radio" id="Gender2">female</input>
+            <input type="checkbox">English</input>
+            <input type="checkbox">Hindi</input>
+            <input type="date"></input>
+            <br/>
+            <br/>
+            <label for="Username">Username:</label>
+            <input type="text" id="Username" placeholder="Enter Usernamem, Phone number or E-mail ID">
+            <!-- elements of form tag:
+                    input
+                    label
+                    select(dropdown or select something)
+                    option(in select)
+                    button
+                    textarea(for A BIG TEXT FIELD multi line text field)
+                    fieldset(used to group multiple or a large no. of elements.TO CREATE SECTIONS IN FORM LIKE DIV TAG IN MAIN HTML PAGE)
+                    legend is used to give a legend or a caption for the fieldset-->
+            <br/>
+            <br/>
+            <label for="carselector1">Select the car you would like to drive</label>
+            <select name="Cars" id="carselector1">
+                <option value="Porsche">Porsche 918 Spyder</option>
+                <option value="Mclaren">Mclaren P1</option>
+                <option value="Ferrari">Ferrari LaFerrari</option>
+            </select>
+            <br/>
+            <br/>
+            <textarea name="Textarea1" id="Textarea1" cols="40" rows="20" placeholder="Enter your favourite car brand "></textarea></fieldset>
+            <br/>
+            <br/>
+            <label for="file1">Upload your car's image</label>  
+            <input type="file" id="file1"></input>
+            <br/>
+            <br/>   
+            <input type="image" name="Carbutton1" alt="Click here" src="divoimg.jpg" 
+            width="500px" height="280px"></input>
+        </form>
+</body>
+</html>

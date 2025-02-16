@@ -4,26 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <style>/*can use google fonts for custom fonts (import font) 
     copy and paste the link tag provided and copy paste the font family as well*/
         p{
-            font-style: italic;
-            font-size: 20px;
-            font-family: cursive; 
+            /* font-style: italic; */
+            font-size: 30px;
+            font-family: "Oswald", serif;
             line-height: /*line height is the space between the lines of text.*/ 1.5;
+            font-style: normal;
+            font-weight: 300;
          }
+        #firstpara{
+            background-color: beige;
+            color: brown;
+        }
+        #secondpara{
+            background-color: rgb(79, 32, 166);
+            /* we can use rgb values to choose any color from the spectrum we like. */
+            color: white;
+        }    
+        #thirdpara{
+            background-color: rgba(224, 211, 19, 0.541); /*rgba is used to set the transparency of the color. 
+            0 is fully transparent and 1 is fully opaque; CHange the value of alpha between 1 and 0 
+            from the bar given to change the level of transparency.*/
+            color: rgb(219, 20, 20);
+        }
+        .fourthpara{
+            background-color: #ac67bb93; /*we can use hex values to choose any color from the spectrum we like. */
+            color: rgb(19, 19, 224);
+        }
+        #fifthpara{
+            /*using hsl values to choose color. hsl stands for hue, saturation and lightness.*/
+            background-color: hsl(308, 60%, 41%);
+            color: #7300ff;
+        }
     </style>
 <body>
     <h1>Learning CSS</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit officiis quo pariatur nobis in temporibus quia atque. In, nisi quia.</p>
+    <!--REMEMBER, ALWAYS USE # WITH ELEMENT'S ID NAME TO STYLE IN CSS.-->
+    <p id="firstpara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit officiis quo pariatur nobis in temporibus quia atque. In, nisi quia.</p>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum fugiat explicabo natus voluptatibus unde asperiores excepturi fuga? Corporis, tempore autem? Beatae laborum possimus libero dolor explicabo. Et incidunt accusamus quaerat?
+    <p id="secondpara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum fugiat explicabo natus voluptatibus unde asperiores excepturi fuga? Corporis, tempore autem? Beatae laborum possimus libero dolor explicabo. Et incidunt accusamus quaerat?
     </p>
 
-    <p>
+    <p id="thirdpara">
     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, adipisci quam. Blanditiis quae molestias facere explicabo eaque, ullam ducimus voluptas? Quae a itaque eius cupiditate impedit fuga assumenda inventore nobis aliquam qui, voluptates dolorem numquam, consequuntur quo eos sapiente adipisci.
-
     </p>
 
+    <p class="fourthpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam expedita nobis asperiores commodi. Unde beatae atque dolor illum minima.</p>
+
+    <p id="fifthpara">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis recusandae minima maiores magni rerum iusto, expedita autem sequi consequatur culpa qui minus nostrum. Saepe sed possimus ab soluta earum doloribus sunt! Cum quidem ab voluptas blanditiis iure excepturi et sequi?</p>
 </body>
 </html>

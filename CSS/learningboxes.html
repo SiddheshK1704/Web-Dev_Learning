@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <style>
+        /*Universal Selector: Selects all the elements on the page.
+        Can write CSS for the whole page which has multiple elements, by
+        selcting them all at once, using the universal selector.*/
+        *{
+            /*this is the universal selector.*/
+            border-radius: 3px;
+        }
+        h1{
+            background-color: aquamarine;
+            font-family: oswald, sans-serif;
+            border-style: solid;
+            border-color: blue;
+            border-width: 2px;
+            border-radius: 5px; /*use px for rounded corners*/
+            /* we can use border for a specific edges as well. */
+            width: 350px;
+            padding: 10px; /*padding is the space between the content and the border. */
+        }
+        .firstpara{
+            background-color: beige;
+            color: brown;
+            font-family: "Oswald", serif;
+            font-weight: 300;
+            width: 350px;
+            border-style: solid;
+            border-color: black;
+            border-width: 2px;
+        }
+        .secondpara{
+            background-color: rgb(79, 32, 166);
+            color: white;
+            font-family: "Oswald", serif;
+            font-weight: 300;
+            width: 350px;
+            border-style: solid;
+            border-color: black;
+            border-width: 2px;
+        }
+        .thirdpara{
+            background-color: rgba(224, 211, 19, 0.541);
+            color: rgb(219, 20, 20);
+            font-family: "Oswald", serif;
+            font-weight: 300;
+            width: 350px;
+            border-style: solid;
+            border-color: black;
+            border-width: 2px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <!-- span tag is used only when we need the properties to span only top the text size or its span. -->
+        <h1>Learning Boxes</h1>
+
+        <p class="firstpara">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus eaque consequuntur soluta laboriosam dolor. Fugiat, harum provident. Velit odio inventore nesciunt dignissimos officiis mollitia accusamus accusantium corrupti sapiente doloremque. Repellendus alias iure mollitia impedit itaque ullam culpa in est dolorem?</p>
+
+        <p class="secondpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fuga id excepturi quasi quis sequi autem? Qui autem earum laborum ipsum. Consectetur totam laborum, ratione incidunt aut pariatur! Eius soluta suscipit error quisquam adipisci a nemo perspiciatis sed maxime corrupti! Pariatur reprehenderit, cumque aliquid rerum dolor iure harum fugiat vero!</p>
+    
+        <p class="thirdpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa atque aperiam deserunt rerum iure totam asperiores qui voluptatum cumque. Rem nam magnam est necessitatibus nesciunt.</p>
+
+        
+
+        <!-- BOX MODEL: -->
+        <!-- MARGIN > BORDER > PADDING > CONTENT -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 1px solid black;
+        }
+        /* cannot change anything on the element
+        which has static property  */
+        /* by default, the images are inline-block elements which have the static poroperty on.
+        to change this and apply relative positioning, in the img code block, change the display to block. */
+        /* WHEN THE POSITION IS STATIC, THE GAP WHICH UR IMAGE HAD BEFORE REPOSITIONING REMAINS. BUT IN 
+        ABSOLUTE POSITIONING, IT VANISHES.(GETS OEVRLAPPED) */
+        .container{
+            position: relative;
+            height: 8000px; /*for scrolling to check fixed posn of img4*/
+        }
+        img{
+            margin: 10px;
+            display: inline-block;
+        }
+        /* .image2{
+            position: relative;
+            top: 100px;
+        } */
+        .image3{
+            position: sticky;/* while using the sticky posn, mention from where
+            it needs to stick, for ex: top: 100px */
+            /* STICKY POSN STICKS TO ITS PARENT CONTAINER, 
+            BUT FIXED POSN STAYS FIXED 4EVER */
+            top:100px;
+        }
+         .image4{
+            position:fixed;/*what this does is, it fixes the image in position on the ui.*/
+         }
+        /* absolute positioning is absolute to its nearest parent. with respect to some  */
+        .box{
+            background-color: aquamarine;
+            height:5000px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="image1" src="car img1.jpg" alt="poster 1" width="300px", height="300px">
+        <img class="image2" src="car img2.jpg" alt="poster 2" width="300px", height="300px">
+        <img class="image3" src="car img 3.avif" alt="poster 3" width="300px", height="300px">
+        <img class="image4" src="car img 4.jpg" alt="poster 4" width="300px", height="300px">
+    </div>
+    <div class="box">
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: beige;
+            border:5px solid black;
+            margin:2px;
+            padding:2px;
+            height:1500px;
+            display:flex; 
+            /*by default, the direction of flex is row. 
+            if we want it to be column, we can do that so by using 
+            flex-direction:column; (can write in reverse order also.)*/
+
+            flex-wrap:wrap; 
+            /* this is used for a responsive design, which means that if the screen
+            gets smaller, then the flex items wont get squeezed and retain their size, acquiring space in the next line 
+            if they are squeezed(if the screen gets smaller)*/
+
+            justify-content: start;/*(gets placed in center)*/
+            /* can be placed in start, center, right, space between=left and right stick to the viewport
+            space-around= equal space( around each item
+            space-evenly=exactly same space between each item*/
+            /* positions corresponding to the main axis */
+
+            /* align-content:start; */
+            /* to align all content */
+
+            align-items: start;
+            /* start, end, center, stretch(by default)*/
+            /* corresponding to cross axis */
+        }
+        .box{
+            height:200px;
+            width:200px;
+            border:2px solid brown;
+            margin:2px;
+            padding:2px;
+        }
+        #box1{
+            background-color: aqua;
+
+            /* order: *//* used for sequencing of items */
+
+            /* flex-shrink:4 *//*used to change the shrink spped of the item*/
+
+            /* flex-growth *//* to change the growth spped of the item*/
+            
+            align-self: center;
+            
+        }
+        #box2{
+            background-color: blue ;
+        }
+        #box3{
+            background-color: orange;
+        }
+        #box4{
+            background-color: brown;
+            /* flex-basis:400px; */
+            /* to assign the dimensions of the item */
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- FLEXBOX:
+        Flexbox is used to handle the layout of the elements.
+        the container is called flex container, the items inside the container are called flex items
+        X-axis is calles Main Axis and Y- axis is called Cross Axis
+        if we want to make a flex container, we make the display property of the container to be "flex" -->
+
+    <div class="container">
+        <div class="box" id="box1">Box 1</div>
+        <div class="box" id="box2">Box 2</div>
+        <div class="box" id="box3">Box 3</div>
+        <div class="box" id="box4">Box 4</div>
+    </div>
+
+
+
+</body>
+</html>

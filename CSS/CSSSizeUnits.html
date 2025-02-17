@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+
+        }
+        
+        .container{
+            border:green  solid 3px ;
+            background-color: beige;
+            /* we can decide the height if the container or the box wrt the 
+            viewport(the whole page), by using height:100vh or width:100vh
+            ehich means, 100% of viewport */
+            /* Example: */
+            height: 100vh;
+            width:50vw;
+        }
+        
+        /* PIXELS */
+        /* a pixel is 1/96 of an inch(0.26mm) */
+        /* .box1{
+            border:1px solid black;
+            font-size:100px;
+        } */
+
+        /* em and rem-
+        by default, font size is 16px. now em means it is dependent on its parent class.
+        10 em means 160 ox if the parent class is body because default font size is 16px. */
+        /* rem- means root parent */
+    </style>
+</head>
+<body>
+    <div class="container">
+        Let's Learn CSS Together
+    </div>
+    <!-- <div class="box1">
+        My name is Siddhesh
+    </div> -->
+</body>
+</html>

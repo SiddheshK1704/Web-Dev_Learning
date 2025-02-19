@@ -10,6 +10,6 @@ This repository contains my web development practice projects as I learn HTML an
 ## 📖 My Progress  
 ✅ Learned HTML. 
 ✅ Started learning CSS (Completed Flexbox
-🔄 Currently exploring layouts (Grid) media, and animations.
+🔄 Currently exploring layouts (Grid), media, and animations.
 
 Stay tuned for more updates as I continue learning!  

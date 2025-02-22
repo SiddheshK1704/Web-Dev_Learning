@@ -37,7 +37,7 @@
             /* box-shadow:10px 15px 10px 30px brown; */
 
             /*  can add inward shadow as well. using inset */
-            /* can add multiple shadows as well */
+            /* can add multiple shadows using ',' as well */
 
             /* IMPORTANT: 
                     Can create custom variables which can be used in the code using -- .
@@ -46,6 +46,12 @@
                     
                     IF U WANT TO USE IT GLOBALLY, DEFINE IT INSIDE THE :root block */
                 }
+                #head1{
+                    /* TEXT-SHADOW
+                    text shadow can be written same as box-shadow */
+                    /* by default, shadow color is black */
+                    text-shadow:2px 3px 2px white;
+                }
             </style>
     </style>
 </head>
@@ -53,7 +59,7 @@
     <div class="container">
         <div class="box">
             <img src="car img 3.avif" alt="" height="50px" width="50px">
-            <h2>Learning Shadows in CSS</h2>
+            <h2 id="head1">Learning Shadows in CSS</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quidem illo, deleniti aspernatur dolores quae vitae laudantium iure porro ducimus omnis repudiandae dolor dolorem odio?</p>
         </div>
     </div>

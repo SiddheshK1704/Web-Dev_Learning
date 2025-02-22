@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: beige;
+            height:650px;
+            border: 2px solid black;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+        .box{
+            background-color: aqua;
+            width:330px;
+            height:330px;
+            border:1px solid brown;
+            margin:5px;
+            padding:5px;
+            /* learning shadows */
+            /* we add shadows by using offset to the box( or the thing we want to add a shadow on) */
+            /* box-shadow: x-offset y-offset color(can add negative values as well)*/
+
+            /* box-shadow:10px 15px brown; */
+
+            /*  can add blur as well. */
+            /* box-shadow: x-offset y-offset blur_radius color */
+
+            box-shadow:10px 15px 10px brown;
+
+            /* spread radius */
+            /* box-shadow: x-offset y-offset blur_radius spread_radius color */
+
+            /* box-shadow:10px 15px 10px 30px brown; */
+
+            /*  can add inward shadow as well. using inset */
+            /* can add multiple shadows as well */
+
+            /* IMPORTANT: 
+                    Can create custom variables which can be used in the code using -- .
+                    ex: --primarycolor: brown; and use this in bgc using var(--primarycolor), etc.. 
+                    CAN ONLY BE USED INSIDE THE CODE BLOCK U R WRITING IT IN.
+                    
+                    IF U WANT TO USE IT GLOBALLY, DEFINE IT INSIDE THE :root block */
+                }
+            </style>
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="car img 3.avif" alt="" height="50px" width="50px">
+            <h2>Learning Shadows in CSS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quidem illo, deleniti aspernatur dolores quae vitae laudantium iure porro ducimus omnis repudiandae dolor dolorem odio?</p>
+        </div>
+    </div>
+</body>
+</html>

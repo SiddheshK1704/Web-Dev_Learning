@@ -1,0 +1,40 @@
+.box{
+    width:400px;
+    height: 400px;
+    background-color: beige;
+    border: 2px solid black;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+
+    transition:all 2s linear;
+    
+}
+.container{
+    width:100vw;
+    height: 100vh;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    /* transform: rotate(360deg); */
+    /* cam be negative as well for anticlockwise */
+    /*can do multiple types of transforations*/
+    /* transform:scale(2); */
+
+    /* transform:scale(0.5); reduces size */
+
+    /* transform:skew(45deg); tilts by 45 deg */
+
+    transform:translate(500px,500px); /*goes diagonally*/
+    /* x and y directions as parameters */ 
+
+
+}
+p{
+    font-size:36px;
+}

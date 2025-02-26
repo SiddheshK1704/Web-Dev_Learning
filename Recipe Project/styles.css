@@ -1,0 +1,137 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    min-height:100%;
+    width:100vw;
+    overflow-x:none; /*good practice*/
+    background-color: #dbd7d7;
+    background-image: linear-gradient(62deg, #dbd7d7 0%, #ffffff 100%);
+
+}
+
+.navContainer{
+    width:100vw;
+    /* background-color: rgba(118, 118, 194, 0.832); */
+    background-color: #023e61;
+    background-image: linear-gradient(160deg, #023e61 1%, #6252d4 100%);
+
+    min-height:80px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+nav{
+    width:100%;
+    overflow-x:none;
+    padding-right: 2rem;
+}
+#navList{
+    /* margin-left:15px;
+    margin-right:15px; */
+    padding:15px;
+    list-style: none;
+    font-size:2.0rem; 
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+#navLogo{
+   font-size:2.5rem; 
+   color:white;
+}
+#navItems{
+    display:flex;
+    gap:40px;
+}
+a{
+    text-decoration:none;
+    color:azure;
+}
+
+.contentBox{
+    width:50%;
+    margin:auto;
+    border:1px solid black;
+    background-color: whitesmoke;
+    display:flex;
+    flex-direction:column;
+    gap:100px;
+    overflow-x:none;
+    padding: 3rem;
+    box-shadow: 1px 1px 30px black;
+}
+ul, ol {
+    padding-left: 20px;  /* Adjust as needed */
+    margin-left: 0;
+}
+.rightBox{
+    position: relative;
+    overflow:hidden;
+    border-radius:20px;
+}
+.rightBox img{
+    border-radius:20px;
+}
+.rightBox:hover{
+    transform:scale(1.1);
+    transition:all;
+    transition-duration: 0.4s;
+    transition-timing-function: linear;
+}
+.rightBox .overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width:100%;
+    background-color: rgba(60, 58, 58, 0.6);
+    border-radius: 20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    opacity:0;
+    transition: all 0.3s linear 0s;
+}
+.rightBox .overlay:hover{
+    opacity:1;
+}
+.rightBox .overlay span{
+    color:white;
+    font-size:1.2rem;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftBox{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+.leftBox h2{
+    font-size:2rem;
+}
+.ingBox{
+    font-size:1.1rem;
+}
+.recipeBox{
+    font-size:1.0rem;
+}
+.footerBox{
+    background-color: #023e61;
+    background-image: linear-gradient(160deg, #023e61 1%, #6252d4 100%);    
+    color:azure;
+    width:100%;
+    text-align:center;
+    min-height:30px;
+}
+.footrBox p{
+    color:azure;
+    font-size:2rem;
+}

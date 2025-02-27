@@ -3,7 +3,7 @@
 This repository contains my web development practice projects as I learn HTML and CSS.
 
 ## What’s Included?
-HTML Projects – Basic structure, forms, tables, and a simple recipe page.
+HTML Projects – Basic structure, forms, tables, and a simple recipe page, and some cards made for practice.
 CSS Experiments – Styling, layouts, colors, fonts, and Flexbox.
 ## 📖 My Progress
 ✅ Learnt HTML.

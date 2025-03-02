@@ -12,6 +12,6 @@ CSS Experiments – Styling, layouts, colors, fonts, and Flexbox, Grids for layo
 ✅ Learnt CSS grids, and flexbox.
 ✅ Learnt 3D transforms in CSS.
 
-Now my plan is to start learning JS as quick as possible, so that I can continue my web development journey.
+Now, I plan on to learn Tailwind CSS, JS, react and then Next.js. Stay tuned!
 
 Stay tuned for more updates as I continue learning! 🚀

@@ -32,15 +32,16 @@ This repository documents my progress as I learn **HTML, CSS, and Tailwind CSS**
 ✔️ Built multiple projects, including a **blog website** & **recipe page**  
 ✔️ Applied **Flexbox, Grid & Tailwind CSS** for responsive design  
 ✔️ Experimented with **Tailwind CSS** for rapid styling  
+✔️ **Started learning JavaScript**  
 
 ---
 
 ## **Next Steps & Learning Goals**  
 
-🔥 **Deep dive into JavaScript** for interactivity  
-🔥 **Explore React.js** for dynamic UI development  
-🔥 **Learn Next.js** for server-side rendering & full-stack web apps  
-🔥 **Master Tailwind CSS** for scalable, utility-first styling  
+🔥 Continue learning **JavaScript**  
+🔥 Explore **React.js** for dynamic UI development  
+🔥 Learn **Next.js** for server-side rendering & full-stack web apps  
+🔥 Master **Tailwind CSS** for scalable, utility-first styling  
 
 ---
 

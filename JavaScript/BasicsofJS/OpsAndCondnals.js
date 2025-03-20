@@ -41,3 +41,80 @@ let ans2=!(true);
 console.log(ans2);
 
 //WORKING WITH NON-BOOLEANS
+// for example, (false && 'Siddhesh' siddhesh being the non boolean here)
+// when using logical operators (&&,||,!) they only work with falsy or truthy values
+//  falsey- undefined, null, 0, false, NaN(Not a Number),'' and truthy are not falsey.
+
+// Short -Circuiting is when u know the outcome of a statement, lets say (f||t||f||f), so it will get the true value in the second only and then terminate returning the value as true.
+
+console.log(false||7);
+
+
+// BITWISE OPERATOR
+// AND-&, OR-|, NOT-~, << LEFT SHIFT, >> RIGHT SHIFT, XOR-^
+console.log(~(0));
+// left shift- multiplied by 2
+// right shift- divided by 2
+console.log(10>>1);
+
+//CONDITIONAL STATEMENTS
+// IF ELSE
+// if(condition){
+// }
+// else{}
+
+let age1=19;
+if(age1>18){
+    console.log("Eligible to vote");
+}
+else{
+    console.log("ineligible");
+}
+
+// can use only 'if' alone.
+// if-else-if
+// if(condn){--------------
+// }
+// else if(condn){--------------
+// }
+// multiple else ifs can be used
+// else{}
+
+let number=3;
+if(number==1){
+    console.log('A');
+}
+else if(number==2){
+    console.log('B');
+}
+else if(number==3){
+    console.log('C');
+}
+else{
+    console.log('Invalid');
+}
+
+// nested if statements- if inside an if block or an else if block
+
+// SWITCH CASES
+// syntax: switch(expression){
+// case_: statement 
+//        break;
+// case_: statement 
+//        break;
+// default: statement 
+//        break;
+// }
+
+let number2=4;
+switch(number2){
+    case 1: console.log('A');
+            break;
+    case 2: console.log('B');
+            break;
+    case 3: console.log('C');
+            break;
+    case 4: console.log('D');
+            break;
+    default: console.log('Invalid');
+}

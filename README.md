@@ -1,6 +1,6 @@
 # 🚀 **Web Development Learning Journey**
 
-### *Documenting my progress through modern web development technologies*
+## *Documenting my progress through modern web development technologies*
 
 This repository showcases my ongoing learning path in **HTML, CSS, Tailwind CSS, and JavaScript**. Follow along as I build projects that demonstrate my evolving skills from fundamentals to advanced concepts.
 

@@ -51,3 +51,32 @@ function getMyName(fname,lname){
 let fullname=getMyName("Siddhesh","Khankhoje");
 console.log("Your name is: ",fullname);
 console.log("\n");
+
+function GetMul(a,b){
+    return a*b;
+}
+let ans3=GetMul(17,18);
+console.log(ans3);
+console.log("\n");
+
+function SqNumbers(num){
+    return num*num;
+}
+console.log(SqNumbers(11));
+console.log("\n");
+// can be written as:
+// let sqNUmbers=function (a,b){
+//      let ans=num**2;
+//      return ans
+// }
+// let ans = sqNUmbers(5);
+// console.log(ans);
+
+// using arrow function:
+let getExp = (x,y) => {
+    let ans = x**y;
+    return ans;
+}
+console.log(getExp(2,6));
+console.log("\n");
+

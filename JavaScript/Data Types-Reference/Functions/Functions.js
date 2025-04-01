@@ -79,4 +79,3 @@ let getExp = (x,y) => {
 }
 console.log(getExp(2,6));
 console.log("\n");
-

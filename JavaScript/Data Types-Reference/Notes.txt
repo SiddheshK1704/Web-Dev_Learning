@@ -1,0 +1,6 @@
+Reference Data types have Objects, Arrays and Functions (mainly).
+Types of memories- Stack memory and Heap memory. Primitve data types consume Stack memory, but the reference data types are created in Heap memory.
+To access heap memory, a pointer is created instack memory for reference to the data in Heap Memory
+
+Object - Key value pairs (Like dictionaries in python.) 
+let obj = {name: "Siddhesh", Age:19, Weight:62 }; // Similar to a dict in python.

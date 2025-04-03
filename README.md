@@ -1,6 +1,6 @@
-# 🚀 **Web Development Learning Journey**
+#  🚀 **Web Development Learning Journey**
 
-## *Documenting my progress through modern web development technologies*
+##  *Documenting my progress through modern web development technologies*
 
 This repository showcases my ongoing learning path in **HTML, CSS, Tailwind CSS, and JavaScript**. Follow along as I build projects that demonstrate my evolving skills from fundamentals to advanced concepts.
 
@@ -23,7 +23,6 @@ This repository showcases my ongoing learning path in **HTML, CSS, Tailwind CSS,
 ### **Tailwind CSS**
 - ✅ **Utility-first** styling approach
 - ✅ **Responsive components** using Tailwind's breakpoints
-- ✅ Custom configuration and theme extensions
 - ✅ Building efficient UI with minimal CSS
 
 ### **JavaScript Fundamentals**

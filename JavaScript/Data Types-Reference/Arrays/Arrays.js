@@ -86,3 +86,30 @@ console.log(arr4); //sorts the array in ascending order
 
 // indexof
 console.log(arr4.indexOf(6)); //gives the index of the element
+
+// foreach()
+let arr5 = [10,20,30];
+arr5.forEach((value,index)=>{
+    console.log("Number: ",value," Index: ",index);  
+}) // to traverse through an array
+console.log("\n");
+// forin() 
+let obj = {
+    "name":"Siddhesh",
+    age: 19,
+    weight:62,
+    Height: "5ft 9 in",
+    greet: function(){
+        console.log("Hello guys how are you!");
+    }
+};
+for(let key in obj){
+    console.log(key," ",obj[key]);
+}
+
+
+// For -of
+for (let value of arr5){
+    console.log(value);
+}
+

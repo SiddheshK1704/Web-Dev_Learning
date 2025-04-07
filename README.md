@@ -31,5 +31,5 @@ This repository showcases my ongoing learning path in **HTML, CSS, Tailwind CSS,
 - ✅ Loops, arrays, and iteration methods
 - ✅ Functions and scope management
 - ✅ String manipulation and operations
-
+- ✅ Arrays and referential data structures
 ---

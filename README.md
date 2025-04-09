@@ -22,8 +22,8 @@ This repository showcases my ongoing learning path in **HTML, CSS, Tailwind CSS,
 
 ### **Tailwind CSS**
 - ✅ **Utility-first** styling approach
-- ✅ **Responsive components** using Tailwind's breakpoints
 - ✅ Building efficient UI with minimal CSS
+- ✅ Built a resposive page for practice.
 
 ### **JavaScript Fundamentals**
 - ✅ Variables, data types, and operations
@@ -31,5 +31,5 @@ This repository showcases my ongoing learning path in **HTML, CSS, Tailwind CSS,
 - ✅ Loops, arrays, and iteration methods
 - ✅ Functions and scope management
 - ✅ String manipulation and operations
-- ✅ Arrays and referential data structures
+- ✅ Arrays and Referential data structures
 ---

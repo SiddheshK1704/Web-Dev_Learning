@@ -19,6 +19,7 @@ This repository showcases my ongoing learning path in **HTML, CSS, Tailwind CSS,
 - ✅ Custom styling with variables, animations & transitions
 - ✅ **CSS 3D Transforms & Hover Effects**
 - ✅ **Responsive design** using media queries
+- ✅ Built and designed a **Blog Website** fpr practice
 
 ### **Tailwind CSS**
 - ✅ **Utility-first** styling approach

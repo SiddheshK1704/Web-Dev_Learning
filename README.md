@@ -1,4 +1,4 @@
-#  🚀 **Web Development Learning Journey**
+#  🚀  **Web Development Learning Journey**
 
 ##  *Documenting my progress through modern web development technologies*
 

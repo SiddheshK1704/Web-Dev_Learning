@@ -1,4 +1,4 @@
-# 🚀 **Web Development Learning Journey**
+#  🚀 **Web Development Learning Journey**
 
 Welcome to my evolving repository, where I chronicle my journey to mastering **modern web development**! This space captures my progress in **HTML**, **CSS**, **Tailwind CSS**, and **JavaScript**, from core fundamentals to advanced techniques.
 

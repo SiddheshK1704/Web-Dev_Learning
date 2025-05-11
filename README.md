@@ -49,15 +49,6 @@ Join me as I transform concepts into real-world projects, refine my craft, and g
 
 ---
 
-## 📂 **Projects in Progress**
-
-- **Personal Portfolio Website** to showcase skills and projects
-- **Weather App** using a public API for real-time data
-- **Interactive Quiz Game** with dynamic scoring and feedback
-- **Responsive Admin Dashboard** styled with Tailwind CSS
-
----
-
 ## 🧠 **Key Learnings & Reflections**
 
 - Prioritizing **accessibility** and **semantic markup** improves user experience

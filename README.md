@@ -1,6 +1,6 @@
 #  🚀 **Web Development Learning Journey**
 
-Welcome to my evolving repository, where I chronicle my journey to mastering **modern web development**! This space captures my progress in **HTML**, **CSS**, **Tailwind CSS**, and **JavaScript**, from core fundamentals to advanced techniques.
+Welcome to my evolving repository, where I journal my path to mastering **modern web development**! This space captures my progress in **HTML**, **CSS**, **Tailwind CSS**, and **JavaScript**, from core fundamentals to advanced techniques.
 
 Join me as I transform concepts into real-world projects, refine my craft, and grow as a developer. 💻✨
 
@@ -44,7 +44,6 @@ Join me as I transform concepts into real-world projects, refine my craft, and g
 - Master **DOM manipulation** and **event handling** in JavaScript
 - Explore **APIs**, **async JavaScript**, and **fetch** for dynamic content
 - Build **interactive front-end applications** with real-time data
-- Learn **Git** and **GitHub** for version control and collaboration
 - Dive into modern frameworks like **React** or **Vue.js**
 
 ---

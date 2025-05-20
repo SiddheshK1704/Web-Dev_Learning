@@ -44,7 +44,7 @@ Join me as I transform concepts into real-world projects, refine my craft, and g
 - Master **DOM manipulation** and **event handling** in JavaScript
 - Explore **APIs**, **async JavaScript**, and **fetch** for dynamic content
 - Build **interactive front-end applications** with real-time data
-- Dive into modern frameworks like **React** or **Vue.js**
+- Dive into modern frameworks like **React**
 
 ---
 

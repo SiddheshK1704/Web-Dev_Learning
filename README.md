@@ -50,7 +50,6 @@ Join me as I transform concepts into real-world projects, refine my craft, and g
 
 ## 🧠 **Key Learnings & Reflections**
 
-- Prioritizing **accessibility** and **semantic markup** improves user experience
 - **Utility-first CSS** (like Tailwind) accelerates development without sacrificing quality
 - Consistent **problem-solving practice** builds confidence in JavaScript
 - Responsive design is non-negotiable in today’s multi-device world

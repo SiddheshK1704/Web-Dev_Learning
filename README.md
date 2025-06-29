@@ -35,7 +35,7 @@ Join me as I transform concepts into real-world projects, refine my craft, and g
 - ✅ Built reusable **functions** with clear scope management
 - ✅ Worked with **loops**, **arrays**, and **iteration** techniques
 - ✅ Manipulated **strings** and managed **referential data structures**
-- ✅ Strengthened problem-solving through coding challenges
+
 
 ---
 
